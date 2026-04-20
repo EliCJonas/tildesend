@@ -1,0 +1,6 @@
+#! /bin/bash
+mkdir "/tmp/.{$1}"
+cp $2 "/tmp/.{$1}"
+echo "Have the other user run rcv and recieve your file, then push Return."
+read
+rm -r "/tmp/.{$1}"

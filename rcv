@@ -1,0 +1,4 @@
+#! /bin/bash
+echo "Recieving file transfer..."
+cp /tmp/.{$1}/* $PWD
+echo "Succesfully recieved."
